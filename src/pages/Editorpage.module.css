@@ -1,0 +1,68 @@
+.mainWrapper{
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    height: 100vh;
+    
+    }
+
+
+    .leftside{
+        background: #1c1e29;
+        padding: 16px;
+        color: floralwhite;
+        display: flex;
+        flex-direction: column;
+    }
+    .leftsideinner{
+
+        flex: 1;
+    }
+
+    .clientList{
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 20px;
+
+
+    }
+    
+    .editorButton{
+        /* width: 60px;*/
+        height: 20px; 
+      
+        outline: none;
+        border-style: none;
+        margin-top: 5px;
+     
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    
+    margin-bottom: 10px;
+
+    }
+
+    .editorButton:hover{
+
+        background-color: rgb(198, 202, 196);
+    
+    }
+    .leavebtn{
+        background-color: rgb(79, 250, 0);
+        height: 20px; 
+      
+        outline: none;
+        border-style: none;
+        margin-top: 5px;
+     
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    
+    margin-bottom: 10px;
+    }
+    .logo{
+    
+    border-bottom: 1px solid #424242;
+    }

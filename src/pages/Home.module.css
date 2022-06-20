@@ -1,0 +1,88 @@
+
+ .homeWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+} 
+
+
+
+.formWrapper{
+    background-color: rgb(22, 32, 48);
+    width: 300px;
+    max-width: 90%;
+    min-height: 300px;
+ border-radius: 10px;
+ padding: 20px 40px;
+
+}
+
+.labeltext{
+    color: rgb(155, 155, 155);
+    font-size: 12px;
+}
+
+.inputgroup{
+    display: flex;
+  flex-direction: column;
+  
+}
+
+.inputbox{
+    height: 25px;
+margin: 2px 0px;
+border-radius: 5px;
+border-style: none;
+outline: none;
+background: #eee;
+font-size: 12px;
+font-weight: bold;
+
+}
+.inputbutton{
+    width: 60px;
+    height: 20px;
+    background-color: rgb(79, 250, 0);
+    outline: none;
+    border-style: none;
+    margin-top: 5px;
+    margin-left: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+margin-bottom: 10px;
+
+}
+
+.inputbutton:hover{
+    background-color: rgb(57, 180, 0);
+}
+
+.createInfo{
+    font-size: 10px;
+    margin-top: 20px;
+    color: rgb(155, 155, 155);
+    margin: 0 auto;
+
+}
+.createNew{
+    color:rgb(79, 250, 0) ;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(79, 250, 0);
+    transition: all 0.3s ease-in-out;
+
+}
+.createNew:hover{
+
+color: rgb(57, 180, 0);
+border-color: rgb(57, 180, 0);
+}
+
+.myinfo{
+    font-size: 20px;
+  
+    color: rgb(155, 155, 155);
+    margin: 10px auto;
+
+}
